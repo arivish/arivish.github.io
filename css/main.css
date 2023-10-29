@@ -1,64 +1,42 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-p{
-		font-size: 40px;
-		color: black;
-		font-family: 'Poiret One', cursive;	
-		}
-		img {
-			width: 100%; 
+@font-face{
+	font-family: 'Poiret One';
+	src:
+	url href="https://fonts.googleapis.com">
+}
 
-		}
-		span{
-			background-color: grey;
-			color;
-			padding: 3px;
-		}
-		div{
-			width: 60%;
-			width: 60%;
-			margin: auto;
-		background-color: revert-layer;
-		width: 60%;
-		
-	
-		width: 60%;
-		background-color: revert-layer;
-		margin: auto;
-		box-shadow: 0 0 10px 1px rgba(5, 59, 255, .4);
-		}
-		h1{
-		
-	font-size: 50px;
-        color:A2678A
-	font-size: 40px;
-        color:black;
-}	
+
+* {
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-	background-color: revert-layer;
-	font-size: 30px;
-        color:#A2678A;
+	background-color: #D8BFD8;
 }
-li{
-
+.main{
+	background-color: #E6E6FA;
+	width: 80%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 20px 1px rgba(400, 0, 300, 0.5); 
+	display: flex;
+	flex-wrap: wrap;
 }
-a{
-	text-decoration: none;
-color: #3F1D38;
-border-bottom: 4px solid transparent;
-display: inline-block;
-margin: 10PX 0;
+.item{
+	max-width: 490px;
+	max-height: 265px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(90vw - 10px);
+	background-color: dodgerblue;
+	margin: 5px;
+	background-position: center;
+	background-size: cover;
 }
-
-		a:hover {
-			border-bottom-color: #3F1D38;
-		}
-	
-		echo "# arivishn" >> README.md 
-git init 
-git add README.md 
-git commit -m "первая фиксация" 
-git Branch -M main 
-git удаленное добавление источника https://github.com/arivish/arivish.github.io.git
- 
-	
+.heading {
+font-size: 48px;
+text-align: center;
+width: 100%;
+padding: 50px ;
+}
+.img_link
+   
