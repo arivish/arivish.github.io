@@ -1,42 +1,36 @@
-@font-face{
-	font-family: 'Poiret One';
-	src:
-	url href="https://fonts.googleapis.com">
-}
-
-
-* {
-	padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-	background-color: #D8BFD8;
-}
-.main{
-	background-color: #E6E6FA;
-	width: 80%;
-	max-width: 1000px;
+.img-box{
+	column-count: 4;
+	column-gap: 3px;
+	width: 90%;
+	max-width: 1400px;
 	margin: auto;
-	box-shadow: 0 0 20px 1px rgba(400, 0, 300, 0.5); 
-	display: flex;
-	flex-wrap: wrap;
+
 }
-.item{
-	max-width: 490px;
-	max-height: 265px;
-	height: calc(95vw / 2 / 16 * 9);
-	width: calc(90vw - 10px);
-	background-color: dodgerblue;
-	margin: 5px;
-	background-position: center;
-	background-size: cover;
+.image{
+	max-width: 100%;
+	display: block;
 }
-.heading {
-font-size: 48px;
-text-align: center;
-width: 100%;
-padding: 50px ;
+.image + .image {
+	margin: 3px;
 }
-.img_link
-   
+.img-wrapper {
+	display: block;
+	opacity: 0.8;
+	transition: 0.4s;
+	filter: blur(2px);
+	/*filter: blur(2px)*/
+
+}
+.img-wrapper + .img-wrapper {
+	margin: 3px 0;
+}
+.img-wrapper:hover {
+	opacity: 1;
+	filter: blur(0);
+	/*filter: sepia(1.3);*/
+	/*filter: brightness(1.9)*/
+	/*filter: grayscale(10)*/
+	
+
+
+}
