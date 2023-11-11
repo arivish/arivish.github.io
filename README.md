@@ -1,1 +1,0 @@
-# arivish.github.io
